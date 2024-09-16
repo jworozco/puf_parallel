@@ -1,0 +1,16 @@
+{
+    "DESIGN_NAME": "DE0_Nano",
+    "VERILOG_FILES": ["dir::puf_pkg.sv",
+                      "dir::dsync.sv",
+                      "dir::fsm.sv",
+                      "dir::mux_16to1.sv",
+                      "dir::post_mux_counter.sv",
+                      "dir::puf_parallel_subblock.sv",
+                      "dir::puf_parallel.sv",
+                      "dir::race_arbiter.sv",
+                      "dir::ring_osc.sv",
+                      "dir::DE0_Nano.sv"],
+    "CLOCK_PERIOD": 25,
+    "CLOCK_PORT": "CLOCK_50",
+    "ERROR_ON_SYNTH_CHECKS": false
+  }
