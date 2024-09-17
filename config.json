@@ -12,5 +12,7 @@
                       "dir::pp_top.sv"],
     "CLOCK_PERIOD": 25,
     "CLOCK_PORT": "CLOCK_50",
-    "ERROR_ON_SYNTH_CHECKS": false
+    "ERROR_ON_SYNTH_CHECKS": false,
+    "FP_PIN_ORDER_CFG": "dir::pin_order.cfg",
+    "PNR_SDC_FILE": "dir::pnr.sdc"
   }
